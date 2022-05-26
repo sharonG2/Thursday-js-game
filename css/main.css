@@ -1,0 +1,67 @@
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.difficulties{
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+button{
+    margin: 1px 2px 10px 2px;
+}
+
+table{
+    margin-left:auto; 
+    margin-right:auto;
+    table-layout: fixed;
+}
+
+.cell{
+    width: 50px;
+    height: 50px;
+    table-layout: fixed;
+    background-color: rgb(189, 138, 138);
+    color:black;
+    text-align: center;
+}
+
+.divCell{
+    display: none;
+}
+
+.countUpTimer{
+    display: none;
+	font-size: 60px;
+	font-weight: bold;
+    margin: 20px;
+	color: rgb(16, 7, 68);
+    font-family:papyrus;
+}
+
+.modal{
+    display: none;
+    background-color: rgb(61, 120, 196);
+    width: 180px;
+    height:60px;
+    position: absolute;
+    bottom: 680px;
+    left: 1200px;
+    color: beige;
+    text-align: center;
+    font-size: 25px;
+}
+
+.restart{
+    display: none;
+    position: absolute;
+    bottom: 675px;
+    left: 1260px;
+}
+
+
